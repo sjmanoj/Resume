@@ -1,0 +1,99 @@
+body{
+	font-family: sans-serif;
+	background-color: whitesmoke;
+	width: 60%;
+	margin: auto;
+
+}
+
+/*global*/
+
+.left-container li{
+	list-style: none;
+
+}
+
+.main{
+	background-color: #35424a;
+	overflow-y: hidden;
+	text-align: center;
+	border-width: 0 0 5px 0;
+	border-color: orange;
+	border-style: solid;
+	color: whitesmoke;
+}
+h1{
+	color: orange;
+}
+footer{
+	text-align: center;
+
+}
+
+.container{
+	margin: 0 auto;
+}
+
+.left-container{
+	float: left;
+	background-color: #35424a;
+	color: whitesmoke;
+	width: 30%;
+	line-height: 1em;
+	border: 0 5px 0 5px;
+	border-color: orange;
+	border-style: solid;
+	margin-top: 10px;
+
+}
+
+.left-container h4{
+	text-decoration: underline;
+	text-align: center;
+	color: orange;
+}
+
+.left-container h5{
+	text-align: center;
+
+}
+
+.left-showcase1, .left-showcase2, .left-showcase3, .left-showcase4, .left-showcase5, .left-showcase6{
+	border-bottom: 0 0 5px 0;
+	border-color: whitesmoke;
+	border-style: solid
+
+}
+
+.right-container{
+	float: right;
+	background-color: white;
+	width: 69%;
+	font-family: sans-serif;
+	text-decoration: none;
+	font-style: none;
+	font-size: 15px;
+	margin-top: 10px;
+	padding-left: 2px;
+}
+
+.right-container h4{
+	text-align: center;
+	background-color: orange;
+}
+
+.right-showcase{
+	line-height: 1.6em;
+}
+
+@media(max-width: 768px){
+	.left-container{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	.right-container{
+		float: none;
+		width: 100%;
+	}
+}
